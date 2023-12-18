@@ -23,23 +23,23 @@ Some highlights of the DSP functionality include:
 • Advanced features:  Optional pipelining and dedicated buses for cascading
 
 - Test Plan
-•    In the testbench we used the default attributes values specified by the user guide.
-•    All inputs pass by one register only (default value is 1 register)
-•    The Testbench covers the following cases:
-A.    Addition
+  In the testbench we used the default attributes values specified by the user guide.
+  All inputs pass by one register only (default value is 1 register)
+  The Testbench covers the following cases:
+  A.    Addition
 
-B.    Multiplication
+  B.    Multiplication
 
-C.    Signed Multiplication
+  C.    Signed Multiplication
+ 
+  D.    Logic Operations
 
-D.    Logic Operations
+  E.    Pattern Detection
 
-E.    Pattern Detection
+  Each Operation in the DSP Slice is controlled by the following input control signals. 
 
-•    Each Operation in the DSP Slice is controlled by the following input control signals. 
+    OPMODE: specifies output of the 3 muxes (X,Y and Z)
 
-OPMODE: specifies output of the 3 muxes (X,Y and Z)
+    ALUMODE: specifies the ALU operations (Arithmetic or Logic)
 
-ALUMODE: specifies the ALU operations (Arithmetic or Logic)
-
-•    In each test case we call a task that configures the required control signals according to the tested mode (Add/Subtract, Logic Operation)
+  In each test case we call a task that configures the required control signals according to the tested mode (Add/Subtract, Logic Operation)
