@@ -1,5 +1,6 @@
 # DSP_SLICE
 Implementation of DSP Slice
+
 -Design
 In this design we covered most of the features of the 7 series FPGA DSP48E1 slice.
 
@@ -23,6 +24,7 @@ Some highlights of the DSP functionality include:
 • Advanced features:  Optional pipelining and dedicated buses for cascading
 
  -Test Plan
+ 
   In the testbench we used the default attributes values specified by the user guide.
   All inputs pass by one register only (default value is 1 register)
   The Testbench covers the following cases:
