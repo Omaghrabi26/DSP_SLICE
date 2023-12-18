@@ -1,6 +1,6 @@
 # DSP_SLICE
 Implementation of DSP Slice
-##Design
+-----Design------
 In this design we covered most of the features of the 7 series FPGA DSP48E1 slice.
 
 FPGAs are efficient for digital signal processing (DSP) applications because they can implement custom, fully parallel algorithms. DSP applications use many binary multipliers and accumulators that are best implemented in dedicated DSP slices. All 7 series FPGAs have many dedicated, full-custom, low-power DSP slices, combining high speed with small size while retaining system design flexibility. 
@@ -22,7 +22,7 @@ Some highlights of the DSP functionality include:
 
 • Advanced features:  Optional pipelining and dedicated buses for cascading
 
-## Test Plan
+ ----Test Plan-----
   In the testbench we used the default attributes values specified by the user guide.
   All inputs pass by one register only (default value is 1 register)
   The Testbench covers the following cases:
